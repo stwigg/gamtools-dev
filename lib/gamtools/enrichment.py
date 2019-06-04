@@ -64,8 +64,7 @@ def get_overlap(features_df1, features_df2, doublets_df):
     ...                      columns=['chrom', 'i'])
     >>> genes
       chrom   i
-    0  chr1  20
-    1  chr2  30
+    0  chr1  20    1  chr2  30
     >>> enrichment.get_overlap(enhancers, genes, pairwise_interactions)
       chrom  Pos_A  Pos_B  interaction
     0  chr1     10     20         0.75
